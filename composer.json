@@ -1,0 +1,22 @@
+{
+    "name": "luyl/test_composer",
+    "description": "鲁银莲的Composer包测试",
+    "type": "library",
+    "license": "TIM",
+    "autoload": {
+        "psr-4": {
+            "Luyl\\TestComposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Luyl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.1.0",
+        "cloudladder/http": "~1.2",
+        "laravel/framework": "^9.0"
+    }
+}

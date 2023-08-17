@@ -2,7 +2,7 @@
     "name": "luyl/test_composer",
     "description": "鲁银莲的Composer包测试",
     "type": "library",
-    "license": "TIM",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Luyl\\TestComposer\\": "src/"
